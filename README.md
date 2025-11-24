@@ -24,12 +24,14 @@ This application is designed to detect Personally Identifiable Information (PII)
 ## Installation
 
 1. Clone the repository:
+
    ```
-   git clone https://github.com/Smruti0603/IDFY_HACKATHON.git
-   cd pii-detection-app
+   git clone https://github.com/schnrj/pii-risk-analyzer.git
+   cd pii-risk-analyzer
    ```
 
 2. Create a virtual environment and activate it:
+
    ```
    python -m venv venv
    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
@@ -43,6 +45,7 @@ This application is designed to detect Personally Identifiable Information (PII)
 ## Usage
 
 1. Start the Flask application:
+
    ```
    python app.py
    ```
@@ -58,7 +61,7 @@ This application is designed to detect Personally Identifiable Information (PII)
 ## Project Structure
 
 ```
-pii-detection-app/
+pii-risk-analyzer/
 │
 ├── app.py                 # Main Flask application
 ├── templates/
